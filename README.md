@@ -23,7 +23,7 @@ The repository is organized to make both research reproduction and future experi
 # Repository Structure
 
 ```text
-Joanna_Research_code/
+road-anomaly-detection-pytorch/
 │
 ├── checkpoints/
 │   ├── best_model.pt          # Best model based on validation metric
