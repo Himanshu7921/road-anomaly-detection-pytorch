@@ -316,6 +316,30 @@ The framework produces
 * AUROC measurements
 * prediction outputs
 
+
+---
+
+## Pretrained Weights
+
+Pretrained model weights are included in this repository to facilitate reproducibility and rapid evaluation.
+
+The released checkpoints are located in:
+
+```text
+checkpoints/
+├── best_model.pt
+└── last_model.pt
+```
+
+- `best_model.pt` contains the model achieving the best validation performance during training.
+- `last_model.pt` corresponds to the final training epoch.
+
+These checkpoints can be directly used with the inference script:
+
+```bash
+python src/predict.py
+```
+
 ---
 
 # Reproducibility
